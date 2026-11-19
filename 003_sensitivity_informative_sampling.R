@@ -11,9 +11,9 @@ library(openxlsx)
 R_inf <- 500 # Final run
 A_draws <- 2000
 target_dir <- "G:/My Drive/BMA_2025/Simulation/Output"
-##D=10, rho=0.1 and re_dist Normal
-scen_indices <- c(1, 9, 17, 57)
-scen_labels  <- c("Baseline Small", "Baseline Large", "Interaction Small", "Dense Large")
+##D=10, rho=0.1 and re_dist=Normal
+scen_indices <- c(1, 9, 49, 57)
+scen_labels  <- c("Baseline Small", "Baseline Large", "Dense Small", "Dense Large")
 
 # Map both informative intensity levels to test structural breakdown points
 gamma_tiers <- c(Moderate = 0.20, Severe = 0.50)
